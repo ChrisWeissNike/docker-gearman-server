@@ -6,5 +6,7 @@ Version of gearman: 1.0.6
 
 Image size: around 130 Mb
 
-Run with:
-```docker run -d -P bidibi/gearman-server```
+## Usage
+
+To run a container with gearmand exposed on port 5730 on the host:
+```docker run -d -p 5730 bidibi/gearman-server```
