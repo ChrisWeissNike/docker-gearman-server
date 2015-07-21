@@ -11,4 +11,6 @@ RUN \
 
 EXPOSE 4730
 
+USER gearman
+
 ENTRYPOINT [ "gearmand" ]

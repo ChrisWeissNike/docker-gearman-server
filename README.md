@@ -8,5 +8,6 @@ Image size: around 130 Mb
 
 ## Usage
 
-To run a container with gearmand exposed on port 5730 on the host:
-```docker run -d -p 5730 bidibi/gearman-server```
+To run a container with gearmand exposed on port 5730 on the host, and pass some gearman options:
+
+```docker run -d -p 5730 bidibi/gearman-server --round-robin --job-retries=5```
